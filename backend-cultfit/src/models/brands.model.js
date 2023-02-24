@@ -7,7 +7,12 @@ const brandSchema = new mongoose.Schema(
 
     subTitle: { type: String, required: true },
     description: { type: String, required: true },
-   
+    products: {
+      img: { type: Array, required: true },
+      title: { type: Array, required: true },
+      description: { type: Array, required: true },
+      btn: { type: Array, required: true },
+    },
   },
   {
     versionKey: false,
