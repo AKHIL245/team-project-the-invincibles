@@ -94,3 +94,41 @@
   margin-bottom: 4%;
   margin-top: 5%;
 }
+.store__right__location {
+  margin-top: 5%;
+  margin-bottom: 3%;
+}
+.store__right__location > input {
+  outline: none;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid rgb(209, 207, 207);
+  width: 100%;
+  font-size: 14px;
+}
+.store__right__productDetails > *,
+.store__right__material > * {
+  margin: 10px;
+  color: grey;
+}
+
+.store__right__material > p {
+  margin-left: 5%;
+}
+
+.store__right__productDetails > h4,
+.store__right__material > h4 {
+  color: rgb(88, 88, 88);
+}
+
+.store__right__delivery {
+  margin-bottom: 4%;
+}
+
+.store__right__delivery > ul > li,
+.store__right__productDetails > ul > li,
+.store__right__material > ul > li {
+  color: grey;
+  margin-left: 10%;
+  margin-bottom: 5px;
+}
