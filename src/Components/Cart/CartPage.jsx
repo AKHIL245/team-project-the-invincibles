@@ -103,7 +103,42 @@ const CartPage = () => {
           </div>
 
           <div className={styles["store__right__buy"]}>
-            
+            {addTocart ? (
+              <button
+                onClick={() => {
+                  if (size) {
+                    setSize("");
+                    setAddTocart(false);
+
+                    handleDataChange({
+                      _id: product._id,
+                      size: size,
+                      img: product.img[0],
+                      name: product.name,
+                      actualPrice: product.actualPrice,
+                      price: product.price,
+                      disc: product.disc,
+                      total: 1,
+                    });
+
+                    return;
+                  }
+
+                  alert("Please Select Size To Proceed Further");
+                  return;
+                }}
+              >
+                Add to Cart
+              </button>
+            ) : (
+              <button
+                onClick={() => {
+                  setRedirect(true);
+                }}
+              >
+                Go To Cart
+              </button>
+            )}
 
             {/* </Link> */}
             <button
