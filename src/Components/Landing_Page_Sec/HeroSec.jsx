@@ -1,4 +1,5 @@
 import "./herosec.css";
+import gymvideo from "../../images/gymvideo.mp4";
 import SubscriptionCard from "../cult/SubscriptionCard";
 import styles from "../cult/Cult.module.css";
 import styled from "styled-components";
@@ -53,11 +54,11 @@ export const HeroSec = () => {
           </p>
         </div>
         <div className="right_section">
-          <video
+          <video height="430px" width="1050px"
             autoPlay
             muted
             loop
-            src="https://vod-progressive.akamaized.net/exp=1680742244~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F3065%2F17%2F440326651%2F1924581254.mp4~hmac=072d453f0acc6a1b209198ca029d7660975f2e8d1a4f736d12fbae0fc5d85475/vimeo-prod-skyfire-std-us/01/3065/17/440326651/1924581254.mp4"
+            src={gymvideo} 
             // src="https://cdn-images.cure.fit/www-curefit-com/video/upload/w_800,q_auto:eco/vc_auto/video/vm/32b91e40-0e2c-477b-a2ad-88d437d0f07f.mp4"
           ></video>
         </div>
@@ -101,14 +102,7 @@ export const HeroSec = () => {
           </div>
         </div>
       </div>
-      <div class="banner_section container">
-        <Link to="/">
-          <img
-            src="https://img.freepik.com/premium-vector/modern-gym-schedule-template-with-flat-design_23-2147933899.jpg"
-            alt="Sale banner"
-          />
-        </Link>
-      </div>
+      
     </>
   );
 };
