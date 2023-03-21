@@ -53,28 +53,56 @@ export const AppContextProvider = ({ children }) => {
   //   setUserData(data);
   //   setIsLoggedIn(true);
   // };
-  const handleLogin = async (phone) => {
+  const handleLogin = async (phone,password) => {
     //const { phone } = phone;
 
-      const response = await fetch(`http://localhost:3000/users/${phone}`);
+      const response = await fetch(`http://202backend-env.eba-rgmq4hxp.us-west-1.elasticbeanstalk.com/users/${phone}?password=${password}`);
       if (!response.ok) {
-        throw new Error('Network response was not ok');
+        alert("Looks like you don't have an account! Please contact FrontDesk.");
       }
       const data = await response.json();
+
       if (!data || data.length === 0) {
         // console.log("data",data);
-      } else {
+        const responseemp = await fetch(`http://202backend-env.eba-rgmq4hxp.us-west-1.elasticbeanstalk.com/employee/${phone}?password=${password}`);
+      if (!responseemp.ok) {
+        alert("Looks like you don't have an account! Please contact FrontDesk.");
+      }
+
+
+      const dataemp = await responseemp.json();
+      if (!dataemp || dataemp.length === 0) {
+        console.log("data",dataemp);
+      }
+      else {
+        // Redirect to user's personal page
+        console.log("appcontextempdata", dataemp);
+        if (dataemp[0].employeename) {
+          localStorage.setItem("name", dataemp[0].employeename);
+          setToken(localStorage.getItem("name"));
+          history.push('/Employee');
+        }
+      }
+      
+     }
+      else {
         // Redirect to user's personal page
         console.log("appcontextuserdata", data);
+        const validUntil = new Date(data[0].validuntill);
+  const currentDate = new Date();
+
+  if (currentDate <= validUntil) {
+    localStorage.setItem("name", data[0].membername);
+    setToken(localStorage.getItem("name"));
+    history.push("/Member");
+  } else {
+    alert("Your membership period is done! Please contact front desk.");
+  }
       }
     //const data = await response.json();
-    console.log(data);
-      localStorage.setItem("name", data[0].membername);
+    //console.log(data);
+      //localStorage.setItem("name", data[0].membername);
     // console.log(data._id ? "yes" : "no");
-    if (data[0].membername) {
-      localStorage.setItem("name", data[0].membername);
-      setToken(localStorage.getItem("name"));
-    }
 
     setUserData(data);
     setIsLoggedIn(true);
