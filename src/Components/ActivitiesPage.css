@@ -1,0 +1,60 @@
+.activities-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .activities-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .activities-filter {
+    margin-bottom: 20px;
+  }
+  
+  .activities-filter label {
+    margin-right: 10px;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .activities-filter select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .activities-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .activities-table th,
+  .activities-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .activities-table th {
+    background-color: #009879;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .activities-table td {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .activities-table tbody tr:nth-child(even) td {
+    background-color: #f5f5f5;
+  }
+  
+  .activities-table tbody tr:hover td {
+    background-color: #eaf6fd;
+    cursor: pointer;
+  }
+  
