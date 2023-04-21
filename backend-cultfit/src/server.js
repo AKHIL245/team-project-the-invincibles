@@ -19,14 +19,37 @@ client.connect(err => {
   }
 
   const db = client.db("CMPE202");
-  const collection = db.collection("Employees");
+  const collection = db.collection("Members");
+  const collectionemp = db.collection("Employees");
+  const collectionindsched = db.collection("individualClassSchedule");
+  app.get("/users/:phone", async (req, res) => {
+    const { phone } = req.params.phone;
+    var query = { phno: req.params.phone };
+    let results = await collection.find(query).toArray();
+    console.log(results);
+    if (!results) return res.send("Not found").status(404);
+  else return res.json(results);
 
-  app.get("/", async (req, res) => {
-    let results = await collection.find({})
-      .limit(50)
-      .toArray();
-    
-    res.send(results).status(200);
+  });
+
+  app.get("/employee/:phone", async (req, res) => {
+    //const { phone } = req.params.phone;
+    var query = { phno: req.params.phone };
+    let results = await collectionemp.find(query).toArray();
+    console.log(results);
+    if (!results) return res.send("Not found").status(404);
+  else return res.json(results);
+
+  });
+
+  app.get("/individualschedule/:membername", async (req, res) => {
+    //const { phone } = req.params.phone;
+    var query = { membername: req.params.membername };
+    let results = await collectionindsched.find(query).toArray();
+    console.log(results);
+    if (!results) return res.send("Not found").status(404);
+  else return res.json(results);
+
   });
 
   // Define other routes and handlers here
