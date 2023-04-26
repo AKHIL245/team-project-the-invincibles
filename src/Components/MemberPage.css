@@ -1,0 +1,36 @@
+.member-page-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.member-page-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.schedule-table th {
+    background-color: green;
+    color: #fff;
+  }
+
+.schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
+.schedule-table td:first-child {
+  font-weight: bold;
+}
+
