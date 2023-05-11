@@ -8,7 +8,7 @@ export function Analytics() {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('http://localhost:3000/empdashboard');
+        const response = await fetch('http://202backend-env.eba-rgmq4hxp.us-west-1.elasticbeanstalk.com/empdashboard');
 
         if (!response.ok) {
           throw new Error('Network response was not ok');
@@ -66,8 +66,8 @@ export function Analytics() {
       }
 
       // Fetch data for hours spent
-      const hoursResponse = await fetch('http://localhost:3000/empdashboardhoursspent');
-      const visitorsData = await fetch('http://localhost:3000/visitoranalytics');
+      const hoursResponse = await fetch('http://202backend-env.eba-rgmq4hxp.us-west-1.elasticbeanstalk.com/empdashboardhoursspent');
+      const visitorsData = await fetch('http://202backend-env.eba-rgmq4hxp.us-west-1.elasticbeanstalk.com/visitoranalytics');
       const visitorData=await visitorsData.json();
       if (!hoursResponse.ok) {
         throw new Error('Network response was not ok');
