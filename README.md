@@ -112,6 +112,7 @@ we embraced the XP principle of Respect by prioritizing the appreciation and val
 ## Amazon S3: Enabled Static Web Hosting
 ![Screenshot (562)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/16dce150-8798-4017-858e-b2d006ea44c8)
 
+
 ![Screenshot (563)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b89ce5c3-c6fc-4620-b5ab-46f1821f5918)
 
 ## AWS Elastic Beanstalk
