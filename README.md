@@ -110,23 +110,23 @@ we embraced the XP principle of Respect by prioritizing the appreciation and val
 # Deployment to AWS
 
 ## Amazon S3: Enabled Static Web Hosting
-![Screenshot (562)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/16dce150-8798-4017-858e-b2d006ea44c8)
+![Screenshot (562)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/474a8d4a-8dc7-4e71-bc31-0a729eb0bc9c)
 
 
-![Screenshot (563)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b89ce5c3-c6fc-4620-b5ab-46f1821f5918)
+![Screenshot (563)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/cf18b640-16a3-49a5-9fd6-128da03c731e)
 
 ## AWS Elastic Beanstalk
-![Screenshot (564)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b4337eeb-a37a-4dec-adad-7421642a9e7d)
+![Screenshot (564)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/c6aaaaa6-3389-473b-a43c-5b9d222e0ff0)
 
 ## AWS EC2
-![Screenshot (565)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/e94ae60c-5f2b-4573-addd-17ec4771641d)
+![Screenshot (565)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/c4834d5a-2474-4822-a7b3-fecc705588d5)
 
 ## AWS LoadBalancer
-![Screenshot (566)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/3cbd461c-4154-4fb8-8b0a-5d24aad7b088)
+![Screenshot (566)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0491ec8d-f3fe-4d3f-9fa3-5983aa25105a)
 
 ## Auto-Scaling Group
 
-![Screenshot (567)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/d7640764-4119-4cb7-95ec-fb3883950e76)
+![Screenshot (567)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/9962b93e-70f7-4b3a-a82c-bfff9ed3d8f5)
 
 
 # Why MERN Stack
@@ -175,33 +175,35 @@ The homepage of the website features various membership options, providing acces
 
 ## UI screenshots:
 
-![Screenshot (568)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/8d57a5ed-161b-4574-b042-e00ef352f163)
+![Screenshot (568)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/021e78de-fd87-4327-8b6e-c8deece177bd)
 
-![Screenshot (569)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/f3abff9f-909d-4d48-b248-b68c13467518)
+![Screenshot (569)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/6024c2c5-db03-4b2a-936f-aba7fdb2045c)
 
-![Screenshot (570)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/77bf0402-0182-42b7-9dcf-2854dd8bdb8c)
+![Screenshot (570)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/a4b68fd2-8eee-43a6-ac66-9768c2e7daf0)
 
-![Screenshot (571)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/a62fcc29-8b63-493d-a554-f413f940a44d)
+![Screenshot (571)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b757f080-d3f7-4c07-b223-4f0f930540d5)
 
-![Screenshot (572)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/668ef46f-018e-49e0-9732-2d9445d06156)
+![Screenshot (572)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0a47330c-85db-432c-9ab4-475d67e4a712)
 
-![Screenshot (573)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/a1e565a6-9aba-4797-aad9-104f4bc70a1d)
+![Screenshot (573)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/ccadf7be-1a73-4aae-894c-2c858dbede49)
 
-![Screenshot (574)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/2a29e49c-7c6e-4145-818a-96cec842ae03)
+![Screenshot (574)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/6e1d3284-f4c0-4994-ad57-a26ed0fa5a22)
 
-![Screenshot (575)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0fb1b210-51ba-4c81-abd7-690fb9e9f9da)
+![Screenshot (575)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/c6aea5ef-68eb-4b7b-bfd9-3235e2ad6fb3)
 
-![Screenshot (576)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/5844760f-e687-4695-b6b7-0ccc8f23016b)
+![Screenshot (576)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/680a1aa9-7a65-4c40-8ec3-bf549a51aa14)
 
-![Screenshot (577)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/ec6aacf0-b541-4bf8-8316-9b4062ae774f)
+![Screenshot (577)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/7d88c4e7-ec73-45a3-a547-0d9875c77d8f)
 
-![Screenshot (578)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/a1cb03a6-281d-4873-b492-d6f33af2da7a)
+![Screenshot (578)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/3a25c00e-e05a-4c6e-99e6-611030c35c1c)
 
-![Screenshot (579)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b208c343-5147-400f-bbe4-7288d0bb331d)
+![Screenshot (579)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/8c89867d-91ef-4a98-a71b-f44a7cc864a9)
 
-![Screenshot (580)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b094d903-97f6-4e6a-9ae5-0fa42b5ec39f)
+![Screenshot (580)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/5acb2cc8-0966-4c20-af3d-8f6fd177a1db)
 
-![Screenshot (581)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/bb1bf779-5d6d-4443-bf22-7745ee2bb3be)
+![Screenshot (581)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/d26edc36-7586-429c-b900-6e42fb1d6fc1)
+
+
 
 
 
