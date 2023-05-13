@@ -162,7 +162,6 @@ The homepage of the website features various membership options, providing acces
     - Hours spent by users in the gym - day, week, month
     - Number of visitors by hour each day, weekday, weekend
 
-
 # Application Level - Enrolled Members:
 
 1. Every user has a personalized page that displays their individual class schedules, which are added by employees of the health club.
