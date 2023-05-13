@@ -59,23 +59,23 @@ HealthClub Membership Management System - Team Invincibles
 
 ## Architecture Diagram:
 
-![ArchitectureDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/98a121ee-5cb5-4c58-8acc-eb79f7dcebd1)
+![ArchitectureDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/c9a42bdf-2ad0-43b9-b91b-d213b075e1b2)
 
 ## Deployment Diagram:
 
-![DeploymentDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/b57db456-8fd8-4dac-be40-43869bc5d359)
+![DeploymentDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/ce1d1275-6a5f-44d2-857a-b7143d0b7f79)
 
 ## Component Diagram:
 
-![ComponentDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/201352dd-bdc0-407c-a7ea-1d79f0d36c76)
+![ComponentDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/2e8d2bc1-497c-4ab3-a0e1-4c55e6719382)
 
 ## UseCase Diagram: 
 
-![UseCaseDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0a6de03d-c13a-4b9b-8c19-73b30ec88e6e)
+![UseCaseDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/8f522ebd-9128-417e-bb77-d9e5da8e4b68)
 
 ## BurnDown Chart
 
-![BurnDown](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/1c35b2ac-3a0b-4202-a21a-1296c64d07bb)
+![BurnDown](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/67bc84dd-fb5b-4d7a-9279-c4336b6c99ef)
 
 
 # XP Core Values 
