@@ -73,6 +73,10 @@ HealthClub Membership Management System - Team Invincibles
 
 ![UseCaseDiagram](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0a6de03d-c13a-4b9b-8c19-73b30ec88e6e)
 
+## BurnDown Chart
+
+![BurnDown](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/1c35b2ac-3a0b-4202-a21a-1296c64d07bb)
+
 
 # XP Core Values 
 
