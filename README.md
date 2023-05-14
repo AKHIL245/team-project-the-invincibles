@@ -5,6 +5,8 @@ HealthClub Membership Management System - Team Invincibles
 
 (Note: Open all sheets links using SJSU email)
 
+[All Documents](https://github.com/gopinathsjsu/team-project-the-invincibles/tree/main/Documentation)
+
 
 # Team Members:
 1. Priyanka Turumalla
@@ -109,13 +111,13 @@ we embraced the XP principle of Respect by prioritizing the appreciation and val
 
 # Deployment to AWS
 
-## Amazon S3: Enabled Static Web Hosting
+## Amazon S3: Enabled Static Web Hosting by creating a S3 bucket.
 ![Screenshot (562)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/474a8d4a-8dc7-4e71-bc31-0a729eb0bc9c)
 
 
 ![Screenshot (563)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/cf18b640-16a3-49a5-9fd6-128da03c731e)
 
-## AWS Elastic Beanstalk
+## AWS Elastic Beanstalk: Created Elastic Beanstalk to deploy our Backend Application. This Elastic Beanstalk takes care of automatically creating EC2 instance.
 ![Screenshot (564)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/c6aaaaa6-3389-473b-a43c-5b9d222e0ff0)
 
 ## AWS EC2
@@ -124,7 +126,7 @@ we embraced the XP principle of Respect by prioritizing the appreciation and val
 ## AWS LoadBalancer
 ![Screenshot (566)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/0491ec8d-f3fe-4d3f-9fa3-5983aa25105a)
 
-## Auto-Scaling Group
+## Auto-Scaling Group: AWS EBS also provide Auto Scaling feature to scale instances based on load.
 
 ![Screenshot (567)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/9962b93e-70f7-4b3a-a82c-bfff9ed3d8f5)
 
