@@ -5,8 +5,9 @@ HealthClub Membership Management System - Team Invincibles
 
 (Note: Open all sheets links using SJSU email)
 
-[All Documents](https://github.com/gopinathsjsu/team-project-the-invincibles/tree/main/Documentation)
+[All required Documents](https://github.com/gopinathsjsu/team-project-the-invincibles/tree/main/Documentation)
 
+[Project Board](https://github.com/orgs/gopinathsjsu/projects/82/views/1)
 
 # Team Members:
 1. Priyanka Turumalla
@@ -111,7 +112,7 @@ we embraced the XP principle of Respect by prioritizing the appreciation and val
 
 # Deployment to AWS
 
-## Amazon S3: Enabled Static Web Hosting by creating a S3 bucket.
+## Amazon S3: Deployed our Frontend Application on AWS S3 enabling static web hosting.
 ![Screenshot (562)](https://github.com/gopinathsjsu/team-project-the-invincibles/assets/45283425/474a8d4a-8dc7-4e71-bc31-0a729eb0bc9c)
 
 
