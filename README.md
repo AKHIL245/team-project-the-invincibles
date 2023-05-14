@@ -50,7 +50,6 @@ HealthClub Membership Management System - Team Invincibles
 # Scrum Meetings Schedule:
 2 weeks Sprint - Every Wednesday 03:00 PM
 
-
 # Documentation
 
 - Project Journal
