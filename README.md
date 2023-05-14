@@ -7,7 +7,7 @@ HealthClub Membership Management System - Team Invincibles
 
 [All required Documents](https://github.com/gopinathsjsu/team-project-the-invincibles/tree/main/Documentation)
 
-[Project Board](https://github.com/orgs/gopinathsjsu/projects/82/views/1)
+[Project Board](https://github.com/orgs/gopinathsjsu/projects/89/views/1)
 
 # Team Members:
 1. Priyanka Turumalla
